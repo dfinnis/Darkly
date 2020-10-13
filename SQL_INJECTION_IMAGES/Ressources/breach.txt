@@ -1,4 +1,4 @@
-## SQL IMAGE SEARCH INJECTION
+## SQL INJECTION - IMAGE SEARCH 
 
 SQL injection is a type of injection attack. Injection attacks occur when maliciously crafted inputs 
 are submitted by an attacker, causing an application to perform an unintended action.
