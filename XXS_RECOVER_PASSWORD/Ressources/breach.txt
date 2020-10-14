@@ -40,6 +40,6 @@ to self-propagate across accounts, creating a type of client-side worm.
 page: http://192.168.0.16/?page=recover
 
 The recovery password is being sent to an email that's hardcoded in HTML. 
-Change the recovery email and it will send the password wherever you want. 
+Change the recovery email and it will send the password (or in this case, flag) wherever you want. 
 
 The flag is : 1d4855f7337c0c14b6f44946872c4eb33853f40b2d54393fbe94f49f1e19bbb0
