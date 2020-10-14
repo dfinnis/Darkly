@@ -33,7 +33,9 @@ the attacker does not know the session id of the user after they have logged in.
 - Users may also wish to log out of websites whenever they are finished using them.
 
 
+## 42 EXAMPLE
 
+page: http://192.168.0.16/
 
 # open Developer Tools -> Storage Inspector (in Firefox)
 ... Here we find a cookie:
