@@ -1,6 +1,12 @@
-## COOKIES
+## UNSECURED COOKIES
 
-# Whare are Cookies?
+Session hijacking, sometimes also known as cookie hijacking is the exploitation of a 
+valid computer session—sometimes also called a session key—to gain unauthorized access to 
+information or services in a computer system. In particular, it is used to refer to the theft 
+of a magic cookie used to authenticate a user to a remote server.
+
+
+# What are Cookies?
 Les cookies sont des fichiers qu'écrivent les sites web en local sur votre ordinateur. 
 Ils ont plusieurs utilités : la tracabilité de clients, l'identification sécurisée 
 des utilisateurs ou admins d'un site ou l'enregistrement de données sur l'utilisateur pour 
@@ -10,6 +16,24 @@ de cookies que l'on peut vouloir. De façon classique, beaucoup de sites stocken
 qui n'est autre que votre variable d'identification au site, ce qui permet de sécuriser 
 les authentifications (le serveur garde en local les sessions SESSID utilisées et les données 
 qui leur sont liées, comme un login).
+
+# Use 
+Cookies are a way to authenticate user identities and priveleges. Stealing a user's cookies
+allows a hacker to pose as the user and thereby:
+- steal sensitive of identifying information (session ID, username, email)
+- access sensitive pages of a web application (payment details, for example)
+
+
+# Prevention
+- Never use a hashed boolean for an admin (or user) cookie to validate user priveleges. 
+- Encryption of the data traffic passed between the parties by using SSL/TLS; in particular the session key.
+- Send the cookie in an HTTP request only if the request is transmitted over a secure channel (typically HTTPS). (this is kind of a repetition of the last point)
+- Regenerating the session id after a successful login. This prevents session fixation because 
+the attacker does not know the session id of the user after they have logged in.
+- Users may also wish to log out of websites whenever they are finished using them.
+
+
+
 
 # open Developer Tools -> Storage Inspector (in Firefox)
 ... Here we find a cookie:
