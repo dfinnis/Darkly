@@ -1,0 +1,25 @@
+## COOKIES
+
+# Whare are Cookies?
+Les cookies sont des fichiers qu'écrivent les sites web en local sur votre ordinateur. 
+Ils ont plusieurs utilités : la tracabilité de clients, l'identification sécurisée 
+des utilisateurs ou admins d'un site ou l'enregistrement de données sur l'utilisateur pour 
+des sites commerciaux. Ces données sont transmises à la fin des headers HTTP avec la forme suivante : 
+Cookie: nom_du_cookie_1=valeur_du_cookie_1; nom_du_cookie_2=valeur_du_cookie_2 avec autant 
+de cookies que l'on peut vouloir. De façon classique, beaucoup de sites stockent un cookie SESSID 
+qui n'est autre que votre variable d'identification au site, ce qui permet de sécuriser 
+les authentifications (le serveur garde en local les sessions SESSID utilisées et les données 
+qui leur sont liées, comme un login).
+
+# open Developer Tools -> Storage Inspector (in Firefox)
+... Here we find a cookie:
+I_am_admin:"68934a3e9455fa72420237eb05902327"
+
+md5_decrypt(68934a3e9455fa72420237eb05902327) = false
+sha256_encrypt(false) = fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa
+
+flag = fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa
+
+
+# md5_decrypt() at https://md5decrypt.net/ 
+# sha256_encrypt() at https://md5decrypt.net/Sha256/
