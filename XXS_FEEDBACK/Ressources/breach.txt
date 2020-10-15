@@ -4,7 +4,7 @@ XSS attacks enable attackers to inject client-side scripts into web pages viewed
 
 page: http://192.168.0.16/index.php?page=feedback
 
-# In 'Name' and 'Message', type 'a' as name and 'b' as message.
+# In 'Name' and 'Message', type 'a' as name and anything as message.
 
 ... the following message shows up in the inspector console:
 
@@ -16,18 +16,11 @@ Uncaught ReferenceError: mtxMessage is not defined
 
 flag = 0fbb54bbf7d099713ca4be297e1bc7da0173d8b3c21c1811b916a3a86652724e
 
-
-# ALTERNATIVELY
-
-# In the inspector console, find the following:
-<textarea name="mtxtMessage" cols="50" rows="3" maxlength="50"></textarea>
-
-# Erase the maxlength attribute, fill the form with HTML code, and hit submit.
-
-... and the flag will appear!
+# This only works with certain single letters (aceilprst) used in either the name or message. 
+# These letters are an anagram of 'particles'
 
 # Prevention
 
-Include a function which handles special characters, or converts HTML code. 
+Include a function which handles edge cases in text input. 
 
 Most modern frameworks natively handle this kind of vulnerability (like React, Vue, Angular Symfony)
