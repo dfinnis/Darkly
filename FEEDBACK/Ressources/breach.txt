@@ -6,7 +6,7 @@ page: http://192.168.0.16/index.php?page=feedback
 
 # In 'Name' and 'Message', type 'a' as name and anything as message.
 
-... the following message shows up in the inspector console:
+... the following message shows up in the page inspector tool:
 
 Uncaught ReferenceError: mtxMessage is not defined
     validate_form http://192.168.0.16/index.php?page=feedback:57
