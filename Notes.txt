@@ -1,18 +1,20 @@
-1. SQL injection basic		=	SQL_INJECTION_IMAGES
-2. SQL injection advanced	=	SQL_INJECTION_MEMBERS
-3. XXS basic				=	XXS_
-4. XXS advanced				=	XXS_
-5.
-6.
-9. Bruteforce (member)		=	SQL_INJECTION_LOGIN
-
+1.	SQL injection basic		=	SQL_INJECTION_IMAGES
+2.	SQL injection advanced	=	SQL_INJECTION_MEMBERS
+3.	Include					=	PATH_TRAVERSAL
+4.	XSS basic				=	FEEDBACK
+5.	XSS advanced			=	XSS_OBJECT
+6.	Cookies					=	COOKIES
+7.	Spoof (curl)			= 	SPOOF_CURL
+8.	Admin (htpasswd)		=	WHATEVER_ADMIN
+9.	Bruteforce (member)		=	SQL_INJECTION_LOGIN
+10.	File upload				=	FILE_UPLOAD
+11.	Redirection				=	PAGE_REDIRECT
+12.	Guess (hidden file)		=	HIDDEN
+13.	Survey					=	XSS_SURVEY
+14.	Recover					=	XSS_RECOVER_PASSWORD
 
 
 A sort of capture the flag web application security project
-
-Here is a website that gives a taster for hacking (web, networks, kernel):
-https://www.bases-hacking.org/articles-categories.html
-
 
 INSTALLATION
 
@@ -26,14 +28,3 @@ New VM > settings > Storage > Under IDE Controller there should be an icon that 
 click on the CD and then select your *.iso file
 
 FOR EACH FAULT, NOTE: discovery, use (what it's used for), prevention, documentation
-
-SQL_injection - search by ID
-SQL_injection - search by image
-page signin - brute force attack, SQL injection
-hidden field - html vulnerability
-URL Redirection - use a php vulnerability to load a different file
-Cookies - find information in cookies
-File upload field - force the upload of a file of any type
-Header - crafting a http request with a specific header
-XSS - two forms of xss vulnerabilities
-javascript vulnerabilities
