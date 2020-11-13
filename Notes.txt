@@ -1,3 +1,12 @@
+1. SQL injection basic		=	SQL_INJECTION_IMAGES
+2. SQL injection advanced	=	SQL_INJECTION_MEMBERS
+3. XXS basic				=	XXS_
+4. XXS advanced				=	XXS_
+5.
+6.
+9. Bruteforce (member)		=	SQL_INJECTION_LOGIN
+
+
 
 A sort of capture the flag web application security project
 
