@@ -8,6 +8,8 @@ In the folder for each breach you will find:
 
 * *README.md* - how to find the flag
 
+See the [subject](https://github.com/anyashuka/Darkly/blob/master/subject.pdf) for more details.
+
 #### Final Score 125/100
 
 
