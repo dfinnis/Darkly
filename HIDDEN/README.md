@@ -43,9 +43,8 @@ Run this command to search all the directories and subdirectories for READMEs co
           arguments to find are taken to be arguments to the command until
           an  argument  consisting of `;' is encountered
 
-This command reveals the filepath containing the flag:
+This reveals the filepath containing the flag:
 
 .hidden/whtccjokayshttvxycsvykxcfm/igeemtxnvexvxezqwntmzjltkt/lmpanswobhwcozdqixbowvbrhw/README
 
-... and here's the flag!
-flag = 99dde1d35d1fdd283924d84e6d9f1d820
+... and here's the flag! 99dde1d35d1fdd283924d84e6d9f1d820
