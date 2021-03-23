@@ -4,9 +4,9 @@ Discover cyber security by finding 14 breaches in a website.
 
 In the folder for each breach you will find:
 
-* *flag* - a hash revealed by the breach
+* *README.md* - how to breach the website
 
-* *README.md* - how to find the flag
+* *flag* - a hash revealed by the breach
 
 See the [subject](https://github.com/anyashuka/Darkly/blob/master/subject.pdf) for more details.
 
