@@ -1,6 +1,6 @@
-# XSS Basic
+# XSS basic
 
-## CROSS SITE SCRIPTING (XSS)
+## Cross Site Scripting (XSS)
 
 XSS attacks enable attackers to inject client-side scripts into web pages viewed by other users.
 
