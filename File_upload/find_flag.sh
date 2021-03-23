@@ -1,4 +1,4 @@
-vm_ip=192.168.0.21 ## Replace vm_ip with your ip
+vm_ip=192.168.0.21 ## Replace vm_ip with your ip address
 
 touch inject.txt
 curl -s --form "Upload=send" \
