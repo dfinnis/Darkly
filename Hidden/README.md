@@ -10,7 +10,7 @@ should be secured, whether it is visible or not.
 
 ## Exploit
 
-*find_flag.sh* runs the following steps of the exploit. You will need to replace the VM_IP before you run.
+*find_flag.sh* runs the following steps of the exploit. You will need to update the VM_IP before you run.
 
 ```./find_flag.sh```
 
