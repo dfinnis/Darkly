@@ -1,5 +1,7 @@
 # Spoof cURL
 
+HTTP headers let client and server pass additional information with an HTTP request.
+
 * Referer header field identifies which website you just came from.
 * User-Agent header field identifies the user.
 
