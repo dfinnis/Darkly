@@ -50,6 +50,5 @@ allows a hacker to pose as the user and thereby:
 - Never use a hashed boolean for an admin (or user) cookie to validate user priveleges. 
 - Encryption of the data traffic passed between the parties by using SSL/TLS; in particular the session key.
 - Send the cookie in an HTTP request only if the request is transmitted over a secure channel (typically HTTPS). (this is kind of a repetition of the last point)
-- Regenerating the session id after a successful login. This prevents session fixation because 
-the attacker does not know the session id of the user after they have logged in.
+- Regenerating the session id after a successful login. This prevents session fixation because the attacker does not know the session id of the user after they have logged in.
 - Users may also wish to log out of websites whenever they are finished using them.
