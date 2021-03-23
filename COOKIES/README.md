@@ -49,7 +49,7 @@ I_am_admin:"68934a3e9455fa72420237eb05902327"
 [md5_decrypt](https://md5decrypt.net)(68934a3e9455fa72420237eb05902327) = false
 
 Ok... that's a clue. What if we do md5_encrypt(true) = b326b5062b2f0e69046810717534cb09 ?
-We erase the old cookie value, put this one in and refresh the page... 
-Good job! Flag : df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3
 
-flag = df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3
+Erase the old cookie value, put this one in and refresh the page...
+
+Good job! Flag : df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3
