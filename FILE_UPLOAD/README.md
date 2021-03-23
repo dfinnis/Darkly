@@ -21,7 +21,7 @@ Allows upload of malicious code
 
 ## Prevention
 
-Don't trust the user-defined Content-Type. Validate the file type independently, e.g. check magic numbers
+Don't trust the user-defined Content-Type. Validate the file type independently, e.g. check magic numbers.
 
 https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload
 
