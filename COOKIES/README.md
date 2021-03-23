@@ -36,20 +36,20 @@ the attacker does not know the session id of the user after they have logged in.
 
 Start at the homepage
 
-* Chrome:
-  - Open Developer Tools -> Application -> Cookies
+* In Chrome:
+  - Click View -> Developer -> Developer Tools -> Application -> Cookies
   - Click on the Cookies dropdown
 
-* Firefox:
-  - open Developer Tools -> storage inspector
+* In Firefox:
+  - Open Developer Tools -> storage inspector
 
 ... Here we find a cookie:
 I_am_admin:"68934a3e9455fa72420237eb05902327"
 
-[md5_decrypt](https://md5decrypt.net)(68934a3e9455fa72420237eb05902327) = false
+Looks like a hash, if we decrypt this cookie value using [md5_decrypt](https://md5decrypt.net) we find (68934a3e9455fa72420237eb05902327) = "false".
 
-Ok... that's a clue. What if we do md5_encrypt(true) = b326b5062b2f0e69046810717534cb09 ?
+Ok... that's a clue. Let's try replacing the cookie value with "true" hashed. md5 encrypt "true" = b326b5062b2f0e69046810717534cb09.
 
-Erase the old cookie value, put this one in and refresh the page...
+Then refresh the page...
 
 Good job! Flag : df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3
