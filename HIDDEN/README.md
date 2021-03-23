@@ -43,7 +43,7 @@ Run this command to search all the directories and subdirectories for READMEs co
           arguments to find are taken to be arguments to the command until
           an  argument  consisting of `;' is encountered
 
-This command returns the filepath containing the flag:
+This command reveals the filepath containing the flag:
 
 .hidden/whtccjokayshttvxycsvykxcfm/igeemtxnvexvxezqwntmzjltkt/lmpanswobhwcozdqixbowvbrhw/README
 
