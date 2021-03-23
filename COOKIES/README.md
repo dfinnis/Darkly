@@ -48,7 +48,7 @@ I_am_admin:"68934a3e9455fa72420237eb05902327"
 
 Looks like a hash, if we decrypt this cookie value using [md5_decrypt](https://md5decrypt.net) we find (68934a3e9455fa72420237eb05902327) = "false".
 
-Ok... that's a clue. Let's try replacing the cookie value with "true" hashed. md5 encrypt "true" = b326b5062b2f0e69046810717534cb09.
+Ok... that's a clue. Let's try replacing this cookie value with "true" hashed. md5 encrypt "true" = b326b5062b2f0e69046810717534cb09.
 
 Then refresh the page...
 
