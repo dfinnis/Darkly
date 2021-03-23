@@ -16,6 +16,7 @@ Follow comments in HTML near albatross image:
 * Let's use this browser : "ft_bornToSec". It will help you a lot
 
 *find_flag.sh* sends an HTTP request with NSA's home page as *Referer* and *ft_bornToSec* as *User-Agent*.
+You will need to update the IP address before running.
 
 ```./find_flag.sh```
 
