@@ -41,7 +41,7 @@ Start at the homepage
   - Click on the Cookies dropdown
 
 * In Firefox:
-  - Open Developer Tools -> storage inspector
+  - Click Developer Tools -> storage inspector
 
 ... Here we find a cookie:
 I_am_admin:"68934a3e9455fa72420237eb05902327"
