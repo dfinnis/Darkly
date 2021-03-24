@@ -35,13 +35,10 @@ Here find the following table structure:
 
 * Table name: list_images,
 column : id
-
 * Table name: list_images,
 column : url
-
 * Table name: list_images,
 column : title
-
 * Table name: list_images,
 column : comment
 
