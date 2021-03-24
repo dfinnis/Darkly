@@ -69,6 +69,7 @@ A successful SQL injection attack can:
 - recover the content of a given file existing on the DBMS file system or write files into the file system, 
 - in some cases, issue commands to the operating system.
 
+
 ## Prevention
 
 - You should always use parameterized statements where available, 
