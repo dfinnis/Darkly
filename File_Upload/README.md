@@ -13,16 +13,16 @@ find_flag.sh uploads a .txt file labeled as a .jpg. You will need to update the 
 
 ```./find_flag.sh```
 
+flag = 46910d9ce35b385885a9f7e2b336249d622f29b267a1771fbacf52133beddba8
+
 
 ## Use
 
-Allows upload of malicious code
+Allows upload of malicious code.
 
 
 ## Prevention
 
 Don't trust the user-defined Content-Type. Validate the file type independently, e.g. check magic numbers.
 
-https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload
-
-flag = 46910d9ce35b385885a9f7e2b336249d622f29b267a1771fbacf52133beddba8
+[OWASP File Upload](https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload)
