@@ -50,7 +50,7 @@ Open a web browser and go to the IP address provided.
 
 ### Hack
 
-Find 14 different exploitable breaches in the website. Each breach should show a *flag*, proving success.
+Find 14 different exploitable breaches, each breach should show a *flag* proving success.
 
 
 ## 14 Breaches
