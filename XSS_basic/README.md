@@ -1,4 +1,4 @@
-# XSS basic
+# XSS - Basic
 
 ## Cross Site Scripting (XSS)
 
