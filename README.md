@@ -51,3 +51,38 @@ Open a web browser and go to the IP address provided.
 ### Hack
 
 Find 14 different exploitable breaches in the website. Each breach should show a *flag*, proving success.
+
+
+## 14 Breaches
+
+* [Admin htpasswd](https://github.com/anyashuka/Darkly/tree/master/Admin_htpasswd)
+
+* [Cookies](https://github.com/anyashuka/Darkly/tree/master/Cookies)
+
+* [File Upload](https://github.com/anyashuka/Darkly/tree/master/File_Upload)
+
+* [Hidden](https://github.com/anyashuka/Darkly/tree/master/Hidden)
+
+* [Path Traversal](https://github.com/anyashuka/Darkly/tree/master/Path_Traversal)
+
+* [Redirection](https://github.com/anyashuka/Darkly/tree/master/Redirection)
+
+* [Spoof_cURL](https://github.com/anyashuka/Darkly/tree/master/Spoof_cURL)
+
+SQL_Injection:
+
+* [SQL_Injection_Images](https://github.com/anyashuka/Darkly/tree/master/SQL_Injection_Images)
+
+* [SQL_Injection_Login](https://github.com/anyashuka/Darkly/tree/master/SQL_Injection_Login)
+
+* [SQL_Injection_Members](https://github.com/anyashuka/Darkly/tree/master/SQL_Injection_Members)
+
+XSS:
+
+* [XSS_Basic](https://github.com/anyashuka/Darkly/tree/master/XSS_Basic)
+
+* [XSS_Object](https://github.com/anyashuka/Darkly/tree/master/XSS_Object)
+
+* [XSS_Recover_Password](https://github.com/anyashuka/Darkly/tree/master/XSS_Recover_Password)
+
+* [XSS_Survey](https://github.com/anyashuka/Darkly/tree/master/XSS_Survey)
