@@ -1,5 +1,7 @@
 # XSS - Object
 
+## Exploit
+
 Go to page:
 
 {VM_IP}/index.php?page=media&src=nsa
