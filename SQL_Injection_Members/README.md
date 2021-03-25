@@ -1,6 +1,6 @@
 # SQL Injection - Members Search
 
-SQL injection is a type of injection attack. Injection attacks occur when maliciously crafted inputs are submitted by an attacker, causing an application to perform an unintended action.
+See [SQL injection Images](https://github.com/anyashuka/Darkly/tree/master/SQL_Injection_Images) for SQL Injection description, use & prevention.
 
 
 ## Exploit
@@ -65,22 +65,3 @@ Surname : 5ff9d0165b4f92b14994e5c685cdce28
 [sha256 encrypt](https://md5decrypt.net/Sha256)(fortytwo) = 10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5
 
 flag = 10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5
-
-
-## Use
-
-A successful SQL injection attack can:
-- read sensitive data from the database, 
-- modify database data (insert/update/delete), 
-- execute administration operations on the database (such as shutdown the DBMS), 
-- recover the content of a given file existing on the DBMS file system or write files into the file system, 
-- in some cases, issue commands to the operating system.
-
-
-## Prevention
-
-- You should always use parameterized statements where available, 
-they are your number one protection against SQL injection.
-- [Here](https://www.hacksplaining.com/prevention/sql-injection#code-samples) are some code samples in various languages.
-- Principle of Least Privilege: applications should ensure that each process or software component can access and affect only the resources it needs. 
-Apply “levels of clearance” as appropriate.
