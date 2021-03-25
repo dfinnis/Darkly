@@ -4,7 +4,7 @@ XSS attacks enable attackers to inject client-side scripts into web pages viewed
 
 Security on the web depends on a variety of mechanisms, including an underlying concept of trust 
 known as the same-origin policy. This essentially states that if content from one site 
-(such as https://mybank.example1.com) is granted permission to access resources (like cookies etc.) on a web browser, 
+(e.g mybank.example.com) is granted permission to access resources (like cookies etc.) on a web browser, 
 then content from any URL with the same (1) URI scheme, (2) host name, and (3) port number will share 
 these permissions. Content from URLs where any of these three attributes are different will 
 have to be granted permissions separately.
