@@ -3,10 +3,6 @@
 The robots.txt file is used to tell web crawlers and other well-meaning robots a few things about the structure of a website,
 including what areas do not contain interesting information (and should therefore not be indexed).
 
-If you have sensitive areas in your robots.txt file, then you seriously need to review the architecture of your site. 
-No sensitive directories should ever be accessible to the public in any way. In fact, anything exposed to the public 
-should be secured, whether it is visible or not.
-
 
 ## Exploit
 
@@ -48,3 +44,10 @@ This reveals the filepath containing the flag:
 .hidden/whtccjokayshttvxycsvykxcfm/igeemtxnvexvxezqwntmzjltkt/lmpanswobhwcozdqixbowvbrhw/README
 
 ... and here's the flag! 99dde1d35d1fdd283924d84e6d9f1d820
+
+
+## Prevention
+
+If you have sensitive areas in your robots.txt file, then you seriously need to review the architecture of your site. 
+No sensitive directories should ever be accessible to the public in any way. In fact, anything exposed to the public 
+should be secured, whether it is visible or not.
