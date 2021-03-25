@@ -56,7 +56,7 @@ Open a web browser and go to the IP address provided.
 Find 14 different exploitable breaches, each breach should show a *flag* proving success.
 
 
-## 14 Breaches
+## Breaches
 
 * [Admin htpasswd](https://github.com/anyashuka/Darkly/tree/master/Admin_htpasswd)
 
