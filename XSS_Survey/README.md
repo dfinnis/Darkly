@@ -2,15 +2,9 @@
 
 XSS attacks enable attackers to inject client-side scripts into web pages viewed by other users.
 
+## Exploit
 
-## Use
-
-Attackers can fold malicious content into the content that's being delivered from the compromised site.
-
-
-## Prevention
-
-Validate POST requests returned by the page:
+Go to page:
 
 {VM_IP/?page=survey
 
