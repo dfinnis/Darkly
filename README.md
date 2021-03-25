@@ -4,7 +4,10 @@ Discover cyber security by finding 14 breaches in a website.
 
 In the folder for each breach you will find:
 
-* *README.md* - how to breach the website
+* *README.md*
+  * how to breach the website
+  * how attackers could use this breach
+  * how to prevent this breach
 
 * *flag* - a hash revealed by the breach
 
