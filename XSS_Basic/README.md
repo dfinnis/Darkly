@@ -2,7 +2,7 @@
 
 ## Cross Site Scripting (XSS)
 
-XSS attacks enable attackers to inject client-side scripts into web pages viewed by other users. See [XSS_Recover_Password](https://github.com/anyashuka/Darkly/tree/master/XSS_Recover_Password) for more XSS description, use and prevention.
+XSS attacks enable attackers to inject client-side scripts into web pages viewed by other users. See [XSS_Recover_Password](https://github.com/anyashuka/Darkly/tree/master/XSS_Recover_Password) for further description, use and prevention.
 
 
 ## Exploit
