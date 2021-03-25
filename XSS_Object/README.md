@@ -1,5 +1,8 @@
 # XSS - Object
 
+See [XSS_Recover_Password](https://github.com/anyashuka/Darkly/tree/master/XSS_Recover_Password) for more XSS description, use and prevention.
+
+
 ## Exploit
 
 Go to page:
