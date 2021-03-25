@@ -1,12 +1,14 @@
 # SQL Injection - Login
 
+See [SQL injection Images](https://github.com/anyashuka/Darkly/tree/master/SQL_Injection_Images) for SQL Injection description, use & prevention.
+
 ## Exploit
 
 Go to page:
 
 {VM_IP}/index.php?page=member
 
-When we were doing [SQL injection into the image search](https://github.com/anyashuka/Darkly/tree/master/SQL_Injection_Images), we noticed something after inputting the following command:
+When we were doing SQL injection into the image search, we noticed something after inputting the following command:
 
 
 ### Get the table names in the database
