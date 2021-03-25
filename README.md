@@ -4,12 +4,12 @@ Discover cyber security by finding 14 breaches in a website.
 
 In the folder for each breach you will find:
 
-* *README.md*
-  * Breach - how to exploit a vulnerability in the website
-  * Use - how attackers could use this breach
-  * Prevention - how to prevent this breach
+* **README.md**
+  * *Breach* - how to exploit a vulnerability in the website
+  * *Use* - how attackers could use this breach
+  * *Prevention* - how to prevent this breach
 
-* *flag* - A hash revealed by the breach
+* **flag** - A hash revealed by the breach
 
 See the [subject](https://github.com/anyashuka/Darkly/blob/master/subject.pdf) for more details.
 
