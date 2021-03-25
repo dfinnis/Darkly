@@ -4,7 +4,7 @@ SQL injection is a type of injection attack. Injection attacks occur when malici
 are submitted by an attacker, causing an application to perform an unintended action.
 
 
-## Exploit
+## Breach
 
 Go to page:
 

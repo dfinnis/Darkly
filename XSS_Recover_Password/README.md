@@ -14,7 +14,7 @@ When the resulting combined content arrives at the client-side web browser, it h
 and thus operates under the permissions granted to that system.
 
 
-## Exploit
+## Breach
 
 Go to page:
 

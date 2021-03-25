@@ -4,7 +4,7 @@ The robots.txt file is used to tell web crawlers and other well-meaning robots a
 including what areas do not contain interesting information (and should therefore not be indexed).
 
 
-## Exploit
+## Breach
 
 *find_flag.sh* runs the following steps of the exploit. You will need to update the VM_IP before you run.
 

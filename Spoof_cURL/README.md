@@ -6,7 +6,7 @@ HTTP headers let client and server pass additional information with an HTTP requ
 * User-Agent header field identifies the user.
 
 
-## Exploit
+## Breach
 
 Go to page:
 

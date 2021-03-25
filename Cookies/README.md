@@ -14,7 +14,7 @@ The SESSID cookie makes it possible to secure authentications
 (the server keeps a local record of the SESSID sessions used and the data linked to them, such as logins).
 
 
-## Exploit
+## Breach
 
 Start at the homepage
 

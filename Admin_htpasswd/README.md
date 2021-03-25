@@ -3,7 +3,7 @@
 *htpasswd* stores usernames and passwords for authentication of HTTP users.
 
 
-## Exploit
+## Breach
 
 Go to page:
 

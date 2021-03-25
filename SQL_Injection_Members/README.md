@@ -3,7 +3,7 @@
 See [SQL injection Images](https://github.com/anyashuka/Darkly/tree/master/SQL_Injection_Images) for SQL Injection description, use & prevention.
 
 
-## Exploit
+## Breach
 
 Go to page:
 

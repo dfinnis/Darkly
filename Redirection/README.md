@@ -2,7 +2,7 @@
 
 Unvalidated redirects and forwards are possible when a web application accepts untrusted input that could cause the web application to redirect towards untrusted input.
 
-## Exploit
+## Breach
 
 Go to page:
 

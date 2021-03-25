@@ -4,7 +4,7 @@ Directory traversal is a navigation technique that can be used gain unauthorized
 It's also known as the ../ (dot dot slash) attack, directory climbing, and backtracking. 
 
 
-## Exploit
+## Breach
 
 Go to page:
 
