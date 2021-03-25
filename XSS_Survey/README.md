@@ -44,4 +44,4 @@ Attackers can fold malicious content into the content that's being delivered fro
 
 ## Prevention
 
-Validate POST requests.
+Validate HTTP POST requests.
