@@ -90,6 +90,6 @@ XSS:
 
 * [XSS_Survey](https://github.com/anyashuka/Darkly/tree/master/XSS_Survey)
 
-<br />
+## Team
 
 I wrote this project in a team with the awesome [@dfinnis](https://github.com/dfinnis).
