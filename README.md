@@ -89,3 +89,6 @@ XSS:
 * [XSS_Recover_Password](https://github.com/anyashuka/Darkly/tree/master/XSS_Recover_Password)
 
 * [XSS_Survey](https://github.com/anyashuka/Darkly/tree/master/XSS_Survey)
+
+
+I wrote this project in a team with the awesome [@dfinnis](https://github.com/dfinnis).
