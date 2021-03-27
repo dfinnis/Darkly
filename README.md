@@ -11,7 +11,7 @@ In the folder for each breach you will find:
 
 * **flag** - A hash revealed by the breach
 
-See the [subject](https://github.com/anyashuka/Darkly/blob/master/subject.pdf) for more details.
+See the [subject](https://github.com/dfinnis/Darkly/blob/master/subject.pdf) for more details.
 
 #### Final Score 125/100
 
@@ -43,13 +43,13 @@ Click Add Disk Image, and select *Darkly_i386.iso*.
 
 Click Start to start the VM, once runnning it should show the IP address.
 
-<img src="https://github.com/anyashuka/Darkly/blob/master/img/vm.png" width="480">
+<img src="https://github.com/dfinnis/Darkly/blob/master/img/vm.png" width="480">
 
 ### Open in browser
 
 Open a web browser and go to the IP address provided.
 
-<img src="https://github.com/anyashuka/Darkly/blob/master/img/home.png" width="480">
+<img src="https://github.com/dfinnis/Darkly/blob/master/img/home.png" width="480">
 
 ### Hack
 
@@ -58,38 +58,38 @@ Find 14 different exploitable breaches, each successful breach should reveal a *
 
 ## Breaches
 
-* [Admin htpasswd](https://github.com/anyashuka/Darkly/tree/master/Admin_htpasswd)
+* [Admin htpasswd](https://github.com/dfinnis/Darkly/tree/master/Admin_htpasswd)
 
-* [Cookies](https://github.com/anyashuka/Darkly/tree/master/Cookies)
+* [Cookies](https://github.com/dfinnis/Darkly/tree/master/Cookies)
 
-* [File Upload](https://github.com/anyashuka/Darkly/tree/master/File_Upload)
+* [File Upload](https://github.com/dfinnis/Darkly/tree/master/File_Upload)
 
-* [Hidden](https://github.com/anyashuka/Darkly/tree/master/Hidden)
+* [Hidden](https://github.com/dfinnis/Darkly/tree/master/Hidden)
 
-* [Path Traversal](https://github.com/anyashuka/Darkly/tree/master/Path_Traversal)
+* [Path Traversal](https://github.com/dfinnis/Darkly/tree/master/Path_Traversal)
 
-* [Redirection](https://github.com/anyashuka/Darkly/tree/master/Redirection)
+* [Redirection](https://github.com/dfinnis/Darkly/tree/master/Redirection)
 
-* [Spoof_cURL](https://github.com/anyashuka/Darkly/tree/master/Spoof_cURL)
+* [Spoof_cURL](https://github.com/dfinnis/Darkly/tree/master/Spoof_cURL)
 
 SQL_Injection:
 
-* [SQL_Injection_Images](https://github.com/anyashuka/Darkly/tree/master/SQL_Injection_Images)
+* [SQL_Injection_Images](https://github.com/dfinnis/Darkly/tree/master/SQL_Injection_Images)
 
-* [SQL_Injection_Login](https://github.com/anyashuka/Darkly/tree/master/SQL_Injection_Login)
+* [SQL_Injection_Login](https://github.com/dfinnis/Darkly/tree/master/SQL_Injection_Login)
 
-* [SQL_Injection_Members](https://github.com/anyashuka/Darkly/tree/master/SQL_Injection_Members)
+* [SQL_Injection_Members](https://github.com/dfinnis/Darkly/tree/master/SQL_Injection_Members)
 
 XSS:
 
-* [XSS_Basic](https://github.com/anyashuka/Darkly/tree/master/XSS_Basic)
+* [XSS_Basic](https://github.com/dfinnis/Darkly/tree/master/XSS_Basic)
 
-* [XSS_Object](https://github.com/anyashuka/Darkly/tree/master/XSS_Object)
+* [XSS_Object](https://github.com/dfinnis/Darkly/tree/master/XSS_Object)
 
-* [XSS_Recover_Password](https://github.com/anyashuka/Darkly/tree/master/XSS_Recover_Password)
+* [XSS_Recover_Password](https://github.com/dfinnis/Darkly/tree/master/XSS_Recover_Password)
 
-* [XSS_Survey](https://github.com/anyashuka/Darkly/tree/master/XSS_Survey)
+* [XSS_Survey](https://github.com/dfinnis/Darkly/tree/master/XSS_Survey)
 
 ## Team
 
-I wrote this project in a team with the awesome [@dfinnis](https://github.com/dfinnis).
+I wrote this project in a team with the awesome [@anyaschukin](https://github.com/anyaschukin).
