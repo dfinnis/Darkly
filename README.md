@@ -13,7 +13,7 @@ In the folder for each breach you will find:
 
 See the [subject](https://github.com/dfinnis/Darkly/blob/master/subject.pdf) for more details.
 
-#### Final Score 125/100
+*Final Score 125/100*
 
 
 ## Getting Started
